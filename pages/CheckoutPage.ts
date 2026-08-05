@@ -21,7 +21,6 @@ export class CheckoutPage {
 
         await this.page.locator('#continue').click();
     }
-
     async finishOrder() {
 
         await this.page.locator('#finish').click();
